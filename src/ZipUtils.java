@@ -13,47 +13,47 @@ import java.util.zip.ZipOutputStream;
 
 /**
  * 
- * åŠŸèƒ½ï¼š 1 ã€å®ç°æŠŠæŒ‡å®šæ–‡ä»¶å¤¹ä¸‹çš„æ‰€æœ‰æ–‡ä»¶å‹ç¼©ä¸ºæŒ‡å®šæ–‡ä»¶å¤¹ä¸‹æŒ‡å®š zip æ–‡ä»¶ 2 ã€å®ç°æŠŠæŒ‡å®šæ–‡ä»¶å¤¹ä¸‹çš„ zip æ–‡ä»¶è§£å‹åˆ°æŒ‡å®šç›®å½•ä¸‹
+ * ¹¦ÄÜ£º 1 ¡¢ÊµÏÖ°ÑÖ¸¶¨ÎÄ¼ş¼ĞÏÂµÄËùÓĞÎÄ¼şÑ¹ËõÎªÖ¸¶¨ÎÄ¼ş¼ĞÏÂÖ¸¶¨ zip ÎÄ¼ş 2 ¡¢ÊµÏÖ°ÑÖ¸¶¨ÎÄ¼ş¼ĞÏÂµÄ zip ÎÄ¼ş½âÑ¹µ½Ö¸¶¨Ä¿Â¼ÏÂ
  * 
- * @author ffshi
+ * @author simon.jia
  * 
  */
 public class ZipUtils {
 	/**
 	 * 
-	 * æ–¹æ³•åï¼šZip æè¿°ï¼š æ—¥æœŸï¼š2012-4-1 ä¸‹åˆ2:10:13
+	 * ·½·¨Ãû£ºZip ÃèÊö£º ÈÕÆÚ£º2012-4-1 ÏÂÎç2:10:13
 	 * 
 	 * @param sourceDir
-	 *            //æŒ‡å®šè¦å‹ç¼©çš„æ–‡ä»¶å¤¹è·¯å¾„
+	 *            //Ö¸¶¨ÒªÑ¹ËõµÄÎÄ¼ş¼ĞÂ·¾¶
 	 * @param outZipFile
-	 *            //æŒ‡å®šå‹ç¼©åæ–‡ä»¶å¤¹è¾“å‡ºè·¯å¾„
+	 *            //Ö¸¶¨Ñ¹ËõºóÎÄ¼ş¼ĞÊä³öÂ·¾¶
 	 * @return void
 	 */
 	public static void Zip(String sourceDir, String zipFile) {
-		//åˆ›å»ºä¸€ä¸ªè¾“å‡ºæµ
+		//´´½¨Ò»¸öÊä³öÁ÷
 		OutputStream os = null;
 		try {
-			//æ‰“å¼€ä¸€ä¸ªå†™ZIPæ–‡ä»¶çš„è¾“å‡ºæµ
+			//´ò¿ªÒ»¸öĞ´ZIPÎÄ¼şµÄÊä³öÁ÷
 			os = new FileOutputStream(zipFile);
-			//æ¥ä¸Šä¸€ä¸ªç¼“å†²æµã€ä¸ç”¨é¢‘ç¹è¯»å–æ–‡ä»¶
+			//½ÓÉÏÒ»¸ö»º³åÁ÷¡¢²»ÓÃÆµ·±¶ÁÈ¡ÎÄ¼ş
 			BufferedOutputStream bos = new BufferedOutputStream(os);
-			//è¯»å–ZIPæ–‡ä»¶å½“ç„¶è¦ç”¨åˆ°ZIPçš„æ–‡ä»¶æ‰“å°æµ
+			//¶ÁÈ¡ZIPÎÄ¼şµ±È»ÒªÓÃµ½ZIPµÄÎÄ¼ş´òÓ¡Á÷
 			ZipOutputStream zos = new ZipOutputStream(bos);
-			//æ‰“å¼€è¦å‹ç¼©çš„æ–‡ä»¶ç›®å½•
+			//´ò¿ªÒªÑ¹ËõµÄÎÄ¼şÄ¿Â¼
 			File file = new File(sourceDir);
-			//åŸºæœ¬è·¯å¾„
+			//»ù±¾Â·¾¶
 			String basePath = null;
-			//å¦‚æœæœ‰å­ç›®å½•å°±è·å¾—åŸºæœ¬è·¯å¾„æ²¡æœ‰å°±è·å¾—ä¸Šä¸€èŠ‚ç‚¹è·¯å¾„
+			//Èç¹ûÓĞ×ÓÄ¿Â¼¾Í»ñµÃ»ù±¾Â·¾¶Ã»ÓĞ¾Í»ñµÃÉÏÒ»½ÚµãÂ·¾¶
 			if (file.isDirectory()) {
 				basePath = file.getPath();
 			} else {
 				basePath = file.getParent();
 			}
-			//è°ƒç”¨åˆ›å»ºZIPæ–‡ä»¶æ–¹æ³•
+			//µ÷ÓÃ´´½¨ZIPÎÄ¼ş·½·¨
 			createZip(file, basePath, zos);
-			//å…³æ‰å½“å‰ZIPå†™å…¥æµ
+			//¹Øµôµ±Ç°ZIPĞ´ÈëÁ÷
 			zos.closeEntry();
-			//å…³æ‰ZIPæµå’Œè¿‡æ»¤æµ
+			//¹ØµôZIPÁ÷ºÍ¹ıÂËÁ÷
 			zos.close();
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -63,7 +63,7 @@ public class ZipUtils {
 
 	/**
 	 * 
-	 * æ–¹æ³•åï¼šcreateZip æè¿°ï¼š ä½œè€…ï¼š æ—¥æœŸï¼š2012-4-1 ä¸‹åˆ2:14:30
+	 * ·½·¨Ãû£ºcreateZip ÃèÊö£º ×÷Õß£º ÈÕÆÚ£º2012-4-1 ÏÂÎç2:14:30
 	 * 
 	 * @param @param source
 	 * @param @param basePath
@@ -73,15 +73,15 @@ public class ZipUtils {
 	private static void createZip(File source, String basePath,
 			ZipOutputStream zos) {
 
-		// åˆ›å»ºæ–‡ä»¶å¯¹è±¡ç”¨äºè£…è½½è¦å‹ç¼©æ–‡ä»¶
+		// ´´½¨ÎÄ¼ş¶ÔÏóÓÃÓÚ×°ÔØÒªÑ¹ËõÎÄ¼ş
 		File[] files = new File[0];
 
 		String pathName;
 
 		int length = 0;
-		// æ£€æµ‹æ˜¯å¦æœ‰å­ç›®å½•
+		// ¼ì²âÊÇ·ñÓĞ×ÓÄ¿Â¼
 		if (source.isDirectory()) {
-			// è·å–ç›®å½•ä¸‹æ‰€æœ‰æ–‡æ¡£
+			// »ñÈ¡Ä¿Â¼ÏÂËùÓĞÎÄµµ
 			files = source.listFiles();
 		} else {
 			files = new File[1];
@@ -91,27 +91,27 @@ public class ZipUtils {
 		try {
 			for (File file : files) {
 				if (file.isDirectory()) {
-					// è·å¾—æ–‡ä»¶è·¯å¾„+â€œ/â€è¡¨ç¤ºè¿˜æœ‰å­ç›®å½•
+					// »ñµÃÎÄ¼şÂ·¾¶+¡°/¡±±íÊ¾»¹ÓĞ×ÓÄ¿Â¼
 					pathName = file.getPath().substring(basePath.length() + 1)
 							+ "/";
-					// åˆ›å»ºä¸€ä¸ªZipæ–‡ä»¶ç›®å½•è¿›è¡Œä¼ é€’ç»™è¾“å‡ºæµ
+					// ´´½¨Ò»¸öZipÎÄ¼şÄ¿Â¼½øĞĞ´«µİ¸øÊä³öÁ÷
 					zos.putNextEntry(new ZipEntry(pathName));
-					// é€’å½’å‹ç¼©åˆ°æ²¡æœ‰å­ç›®å½•
+					// µİ¹éÑ¹Ëõµ½Ã»ÓĞ×ÓÄ¿Â¼
 					createZip(file, basePath, zos);
 				} else {
 
 					pathName = file.getPath().substring(basePath.length() + 1);
-					// æ‰“å¼€æ–‡ä»¶è¾“å…¥é€šé“
+					// ´ò¿ªÎÄ¼şÊäÈëÍ¨µÀ
 					InputStream is = new FileInputStream(file);
-					// ä½¿ç”¨ç¼“å†²æµå¯¹æ¥å‹ç¼©æµ
+					// Ê¹ÓÃ»º³åÁ÷¶Ô½ÓÑ¹ËõÁ÷
 					BufferedInputStream bis = new BufferedInputStream(is);
-					// åˆ›å»ºå‹ç¼©ç›®å½•
+					// ´´½¨Ñ¹ËõÄ¿Â¼
 					zos.putNextEntry(new ZipEntry(pathName));
-					// å¾ªç¯å†™å…¥å‹ç¼©æµ
+					// Ñ­»·Ğ´ÈëÑ¹ËõÁ÷
 					while ((length = bis.read(buf)) > 0) {
 						zos.write(buf, 0, length);
 					}
-					// å…³é—­æ–‡ä»¶æµ
+					// ¹Ø±ÕÎÄ¼şÁ÷
 					is.close();
 				}
 			}
@@ -123,31 +123,31 @@ public class ZipUtils {
 
 	/**
 	 * 
-	 * æ–¹æ³•åï¼šunZip æè¿°ï¼šä¸èƒ½è§£å‹rar æ—¥æœŸï¼š2012-4-1 ä¸‹åˆ5:33:19
+	 * ·½·¨Ãû£ºunZip ÃèÊö£º²»ÄÜ½âÑ¹rar ÈÕÆÚ£º2012-4-1 ÏÂÎç5:33:19
 	 * 
 	 * @param @param zipFile
 	 * @param @param descDir
 	 * @return void
 	 */
 	private static void unZip(String zipfile, String descDir) {
-		// éªŒè¯ç›®å½•æ­£ç¡®æ€§
+		// ÑéÖ¤Ä¿Â¼ÕıÈ·ĞÔ
 		descDir = descDir.endsWith("//") ? descDir : descDir + "//";
 		byte b[] = new byte[1024];
 		int length;
 		ZipFile zipFile;
 
 		try {
-			// æ‰“å¼€ZIPå‹ç¼©æ–‡ä»¶
+			// ´ò¿ªZIPÑ¹ËõÎÄ¼ş
 			zipFile = new ZipFile(new File(zipfile));
-			// è¿”å›æ–‡ä»¶ç›®å½•æšä¸¾
+			// ·µ»ØÎÄ¼şÄ¿Â¼Ã¶¾Ù
 			Enumeration enumeration = zipFile.entries();
-			// åˆ›å»ºZipç›®å½•
+			// ´´½¨ZipÄ¿Â¼
 			ZipEntry zipEntry = null;
-			// éå†ç›®å½•æšä¸¾
+			// ±éÀúÄ¿Â¼Ã¶¾Ù
 			while (enumeration.hasMoreElements()) {
-				// è·å¾—å‹ç¼©ç›®å½•
+				// »ñµÃÑ¹ËõÄ¿Â¼
 				zipEntry = (ZipEntry) enumeration.nextElement();
-				// åˆ›å»ºå‹ç¼©ç›®å½•æ–‡ä»¶
+				// ´´½¨Ñ¹ËõÄ¿Â¼ÎÄ¼ş
 				File loadFile = new File(descDir + zipEntry.getName());
 
 				if (zipEntry.isDirectory()) {
@@ -165,7 +165,7 @@ public class ZipUtils {
 					os.close();
 				}
 			}
-			System.out.println(" æ–‡ä»¶è§£å‹æˆåŠŸ ");
+			System.out.println(" ÎÄ¼ş½âÑ¹³É¹¦ ");
 		} catch (IOException e) {
 			e.printStackTrace();
 		}

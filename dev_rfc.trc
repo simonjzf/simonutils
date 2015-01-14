@@ -1,0 +1,1041 @@
+
+**** ERROR file opened at 20120111 161010 China Standard, SAP-REL 640,0,132 RFC-VER 3 836337 MT-SL
+T:3824 Error in program 'javaw': ======> Connect to SAP gateway failed
+Connect_PM  GWHOST=192.168.100.92, GWSERV=sapgw10, ASHOST=192.168.100.92, SYSNR=10
+
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       partner not reached (host 192.168.100.92, service 3310)
+
+TIME        Wed Jan 11 16:10:10 2012
+RELEASE     640
+COMPONENT   NI (network interface)
+VERSION     37
+RC          -10
+MODULE      nixxi_r.cpp
+LINE        8716
+DETAIL      NiPConnect2
+SYSTEM CALL SiPeekPendConn
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     1
+
+
+**** ERROR file opened at 20120111 161055 China Standard, SAP-REL 640,0,132 RFC-VER 3 836337 MT-SL
+T:2996 Error in program 'javaw': ======> Connect to SAP gateway failed
+Connect_PM  GWHOST=192.168.100.92, GWSERV=sapgw10, ASHOST=192.168.100.92, SYSNR=10
+
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       partner not reached (host 192.168.100.92, service 3310)
+
+TIME        Wed Jan 11 16:10:55 2012
+RELEASE     640
+COMPONENT   NI (network interface)
+VERSION     37
+RC          -10
+MODULE      nixxi_r.cpp
+LINE        8716
+DETAIL      NiPConnect2
+SYSTEM CALL SiPeekPendConn
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     1
+
+
+**** ERROR file opened at 20120111 161357 China Standard, SAP-REL 640,0,132 RFC-VER 3 836337 MT-SL
+T:4004 Error in program 'javaw': ======> Syntax error in program SAPLZ_JAVA                              .
+T:4004 Error in program 'javaw': <* RfcReceive [2] : returns 3:RFC_SYS_EXCEPTION
+T:4004 Error in program 'javaw': <* RfcCallReceive [2] : returns 3:RFC_SYS_EXCEPTION
+
+**** ERROR file opened at 20120111 161654 China Standard, SAP-REL 640,0,132 RFC-VER 3 836337 MT-SL
+T:4164 Error in program 'javaw': ======> Syntax error in program SAPLZ_JAVA                              .
+T:4164 Error in program 'javaw': <* RfcReceive [2] : returns 3:RFC_SYS_EXCEPTION
+T:4164 Error in program 'javaw': <* RfcCallReceive [2] : returns 3:RFC_SYS_EXCEPTION
+
+**** ERROR file opened at 20120111 161953 China Standard, SAP-REL 640,0,132 RFC-VER 3 836337 MT-SL
+T:2868 Error in program 'javaw': ======> Syntax error in program SAPLZ_JAVA                              .
+T:2868 Error in program 'javaw': <* RfcReceive [2] : returns 3:RFC_SYS_EXCEPTION
+T:2868 Error in program 'javaw': <* RfcCallReceive [2] : returns 3:RFC_SYS_EXCEPTION
+
+**** ERROR file opened at 20120111 162145 China Standard, SAP-REL 640,0,132 RFC-VER 3 836337 MT-SL
+T:3936 Error in program 'javaw': ======> Syntax error in program SAPLZ_JAVA                              .
+T:3936 Error in program 'javaw': <* RfcReceive [2] : returns 3:RFC_SYS_EXCEPTION
+T:3936 Error in program 'javaw': <* RfcCallReceive [2] : returns 3:RFC_SYS_EXCEPTION
+
+**** ERROR file opened at 20120113 152714 China Standard, SAP-REL 640,0,132 RFC-VER 3 836337 MT-SL
+T:5964 Error in program 'javaw': ======> Connect to SAP gateway failed
+Connect_PM  GWHOST=192.168.101.19, GWSERV=sapgw00, ASHOST=192.168.101.19, SYSNR=00
+
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       partner not reached (host 192.168.101.19, service 3300)
+
+TIME        Fri Jan 13 15:27:14 2012
+RELEASE     640
+COMPONENT   NI (network interface)
+VERSION     37
+RC          -10
+MODULE      nixxi_r.cpp
+LINE        8716
+DETAIL      NiPConnect2
+SYSTEM CALL SiPeekPendConn
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     1
+
+
+**** ERROR file opened at 20120113 154954 China Standard, SAP-REL 640,0,132 RFC-VER 3 836337 MT-SL
+T:6128 Error in program 'javaw': ======> Connect to SAP gateway failed
+Connect_PM  GWHOST=192.168.101.19, GWSERV=sapgw00, ASHOST=192.168.101.19, SYSNR=00
+
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       partner not reached (host 192.168.101.19, service 3300)
+
+TIME        Fri Jan 13 15:49:54 2012
+RELEASE     640
+COMPONENT   NI (network interface)
+VERSION     37
+RC          -10
+MODULE      nixxi_r.cpp
+LINE        8716
+DETAIL      NiPConnect2
+SYSTEM CALL SiPeekPendConn
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     1
+
+
+**** ERROR file opened at 20120211 122253 China Standard, SAP-REL 640,0,132 RFC-VER 3 836337 MT-SL
+T:3776 Error in program 'javaw': ======> Name or password is incorrect (repeat logon)
+T:3776 Error in program 'javaw': <* RfcReceive [1] : returns 3:RFC_SYS_EXCEPTION
+
+**** ERROR file opened at 20120211 122344 China Standard, SAP-REL 640,0,132 RFC-VER 3 836337 MT-SL
+T:5416 Error in program 'javaw': ======> Name or password is incorrect (repeat logon)
+T:5416 Error in program 'javaw': <* RfcReceive [1] : returns 3:RFC_SYS_EXCEPTION
+
+**** ERROR file opened at 20120217 091657 China Standard, SAP-REL 640,0,132 RFC-VER 3 836337 MT-SL
+T:4088 Error in program 'javaw': ======> ## 802 ########
+T:4088 Error in program 'javaw': <* RfcReceive [1] : returns 3:RFC_SYS_EXCEPTION
+
+**** ERROR file opened at 20120222 092421 China Standard, SAP-REL 640,0,132 RFC-VER 3 836337 MT-SL
+T:1440 Error in program 'javaw': ======> Connect to SAP gateway failed
+Connect_PM  GWHOST=192.168.100.92, GWSERV=sapgw11, ASHOST=192.168.100.92, SYSNR=11
+
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       connection to partner broken
+
+TIME        Wed Feb 22 09:24:21 2012
+RELEASE     640
+COMPONENT   NI (network interface)
+VERSION     37
+RC          -6
+MODULE      ninti.c
+LINE        789
+DETAIL      NiPRead (192.168.100.92/3311, hdl 1)
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     3
+
+
+**** ERROR file opened at 20120222 092432 China Standard, SAP-REL 640,0,132 RFC-VER 3 836337 MT-SL
+T:1424 Error in program 'javaw': ======> Connect to SAP gateway failed
+Connect_PM  GWHOST=192.168.100.92, GWSERV=sapgw11, ASHOST=192.168.100.92, SYSNR=11
+
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       partner not reached (host 192.168.100.92, service 3311)
+
+TIME        Wed Feb 22 09:24:32 2012
+RELEASE     640
+COMPONENT   NI (network interface)
+VERSION     37
+RC          -10
+MODULE      nixxi_r.cpp
+LINE        8716
+DETAIL      NiPConnect2
+SYSTEM CALL SiPeekPendConn
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     1
+
+
+**** ERROR file opened at 20120222 093917 China Standard, SAP-REL 640,0,132 RFC-VER 3 836337 MT-SL
+T:5016 Error in program 'javaw': ======> Connect to SAP gateway failed
+Connect_PM  GWHOST=192.168.101.19, GWSERV=sapgw00, ASHOST=192.168.101.19, SYSNR=00
+
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       partner not reached (host 192.168.101.19, service 3300)
+
+TIME        Wed Feb 22 09:39:17 2012
+RELEASE     640
+COMPONENT   NI (network interface)
+VERSION     37
+RC          -10
+MODULE      nixxi_r.cpp
+LINE        8716
+DETAIL      NiPConnect2
+SYSTEM CALL SiPeekPendConn
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     1
+
+
+**** ERROR file opened at 20120328 110601 China Standard, SAP-REL 640,0,132 RFC-VER 3 836337 MT-SL
+T:4652 Error in program 'javaw': ======> Connect to SAP gateway failed
+Connect_PM  GWHOST=192.168.108.94, GWSERV=sapgw11, ASHOST=192.168.108.94, SYSNR=11
+
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       partner not reached (host 192.168.108.94, service 3311)
+
+TIME        Wed Mar 28 11:06:01 2012
+RELEASE     640
+COMPONENT   NI (network interface)
+VERSION     37
+RC          -10
+MODULE      nixxi_r.cpp
+LINE        8716
+DETAIL      NiPConnect2
+SYSTEM CALL SiPeekPendConn
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     1
+
+
+**** ERROR file opened at 20120428 092935 China Standard, SAP-REL 640,0,132 RFC-VER 3 836337 MT-SL
+T:1024 Error in program 'javaw': ======> Connect to SAP gateway failed
+Connect_PM  GWHOST=192.168.101.19, GWSERV=sapgw10, ASHOST=192.168.101.19, SYSNR=10
+
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       partner not reached (host 192.168.101.19, service 3310)
+
+TIME        Sat Apr 28 09:29:35 2012
+RELEASE     640
+COMPONENT   NI (network interface)
+VERSION     37
+RC          -10
+MODULE      nixxi_r.cpp
+LINE        8716
+DETAIL      NiPConnect2
+SYSTEM CALL SiPeekPendConn
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     1
+
+
+**** ERROR file opened at 20120428 093043 China Standard, SAP-REL 640,0,132 RFC-VER 3 836337 MT-SL
+T:5676 Error in program 'javaw': ======> Connect to SAP gateway failed
+Connect_PM  GWHOST=192.168.101.19, GWSERV=sapgw10, ASHOST=192.168.101.19, SYSNR=10
+
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       partner not reached (host 192.168.101.19, service 3310)
+
+TIME        Sat Apr 28 09:30:43 2012
+RELEASE     640
+COMPONENT   NI (network interface)
+VERSION     37
+RC          -10
+MODULE      nixxi_r.cpp
+LINE        8716
+DETAIL      NiPConnect2
+SYSTEM CALL SiPeekPendConn
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     1
+
+
+**** ERROR file opened at 20120428 093209 China Standard, SAP-REL 640,0,132 RFC-VER 3 836337 MT-SL
+T:360 Error in program 'javaw': ======> Connect to SAP gateway failed
+Connect_PM  GWHOST=192.168.101.19, GWSERV=sapgw10, ASHOST=192.168.101.19, SYSNR=10
+
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       partner not reached (host 192.168.101.19, service 3310)
+
+TIME        Sat Apr 28 09:32:09 2012
+RELEASE     640
+COMPONENT   NI (network interface)
+VERSION     37
+RC          -10
+MODULE      nixxi_r.cpp
+LINE        8716
+DETAIL      NiPConnect2
+SYSTEM CALL SiPeekPendConn
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     1
+
+
+**** ERROR file opened at 20120428 093304 China Standard, SAP-REL 640,0,132 RFC-VER 3 836337 MT-SL
+T:1964 Error in program 'javaw': ======> Connect to SAP gateway failed
+Connect_PM  GWHOST=192.168.101.19, GWSERV=sapgw10, ASHOST=192.168.101.19, SYSNR=10
+
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       partner not reached (host 192.168.101.19, service 3310)
+
+TIME        Sat Apr 28 09:33:04 2012
+RELEASE     640
+COMPONENT   NI (network interface)
+VERSION     37
+RC          -10
+MODULE      nixxi_r.cpp
+LINE        8716
+DETAIL      NiPConnect2
+SYSTEM CALL SiPeekPendConn
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     1
+
+
+**** ERROR file opened at 20120428 093423 China Standard, SAP-REL 640,0,132 RFC-VER 3 836337 MT-SL
+T:3684 Error in program 'javaw': ======> Connect to SAP gateway failed
+Connect_PM  GWHOST=192.168.101.19, GWSERV=sapgw10, ASHOST=192.168.101.19, SYSNR=10
+
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       partner not reached (host 192.168.101.19, service 3310)
+
+TIME        Sat Apr 28 09:34:23 2012
+RELEASE     640
+COMPONENT   NI (network interface)
+VERSION     37
+RC          -10
+MODULE      nixxi_r.cpp
+LINE        8716
+DETAIL      NiPConnect2
+SYSTEM CALL SiPeekPendConn
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     1
+
+
+**** ERROR file opened at 20120428 093509 China Standard, SAP-REL 640,0,132 RFC-VER 3 836337 MT-SL
+T:5820 Error in program 'javaw': ======> Connect to SAP gateway failed
+Connect_PM  GWHOST=192.168.101.19, GWSERV=sapgw10, ASHOST=192.168.101.19, SYSNR=10
+
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       partner not reached (host 192.168.101.19, service 3310)
+
+TIME        Sat Apr 28 09:35:09 2012
+RELEASE     640
+COMPONENT   NI (network interface)
+VERSION     37
+RC          -10
+MODULE      nixxi_r.cpp
+LINE        8716
+DETAIL      NiPConnect2
+SYSTEM CALL SiPeekPendConn
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     1
+
+
+**** ERROR file opened at 20120428 093548 China Standard, SAP-REL 640,0,132 RFC-VER 3 836337 MT-SL
+T:6132 Error in program 'javaw': ======> ## 782 ########
+T:6132 Error in program 'javaw': <* RfcReceive [1] : returns 3:RFC_SYS_EXCEPTION
+
+**** ERROR file opened at 20120428 093557 China Standard, SAP-REL 640,0,132 RFC-VER 3 836337 MT-SL
+T:4788 Error in program 'javaw': ======> Connect to SAP gateway failed
+Connect_PM  GWHOST=192.168.101.19, GWSERV=sapgw10, ASHOST=192.168.101.19, SYSNR=10
+
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       partner not reached (host 192.168.101.19, service 3310)
+
+TIME        Sat Apr 28 09:35:57 2012
+RELEASE     640
+COMPONENT   NI (network interface)
+VERSION     37
+RC          -10
+MODULE      nixxi_r.cpp
+LINE        8716
+DETAIL      NiPConnect2
+SYSTEM CALL SiPeekPendConn
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     1
+
+
+**** ERROR file opened at 20120428 093939 China Standard, SAP-REL 640,0,132 RFC-VER 3 836337 MT-SL
+T:3412 Error in program 'javaw': ======> ## 812 ########
+T:3412 Error in program 'javaw': <* RfcReceive [1] : returns 3:RFC_SYS_EXCEPTION
+
+**** ERROR file opened at 20120709 142219 China Standard, SAP-REL 640,0,132 RFC-VER 3 836337 MT-SL
+T:3472 Error in program 'javaw': ======> Connect to SAP gateway failed
+Connect_PM  GWHOST=192.168.1018.94, GWSERV=sapgw10, ASHOST=192.168.1018.94, SYSNR=10
+
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       hostname '192.168.1018.94' unknown
+
+TIME        Mon Jul 09 14:22:19 2012
+RELEASE     640
+COMPONENT   NI (network interface)
+VERSION     37
+RC          -2
+MODULE      ninti.c
+LINE        336
+DETAIL      NiPGetHostByName2: hostname '192.168.1018.94' not found
+SYSTEM CALL gethostbyname_r
+COUNTER     1
+
+
+**** ERROR file opened at 20120709 142233 China Standard, SAP-REL 640,0,132 RFC-VER 3 836337 MT-SL
+T:5732 Error in program 'javaw': ======> Connect to SAP gateway failed
+Connect_PM  GWHOST=192.168.108.94, GWSERV=sapgw10, ASHOST=192.168.108.94, SYSNR=10
+
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       partner not reached (host 192.168.108.94, service 3310)
+
+TIME        Mon Jul 09 14:22:33 2012
+RELEASE     640
+COMPONENT   NI (network interface)
+VERSION     37
+RC          -10
+MODULE      nixxi_r.cpp
+LINE        8716
+DETAIL      NiPConnect2
+SYSTEM CALL SiPeekPendConn
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     1
+
+
+**** ERROR file opened at 20120709 142339 China Standard, SAP-REL 640,0,132 RFC-VER 3 836337 MT-SL
+T:3008 Error in program 'javaw': ======> Connect to SAP gateway failed
+Connect_PM  GWHOST=192.168.108.94, GWSERV=sapgw10, ASHOST=192.168.108.94, SYSNR=10
+
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       partner not reached (host 192.168.108.94, service 3310)
+
+TIME        Mon Jul 09 14:23:39 2012
+RELEASE     640
+COMPONENT   NI (network interface)
+VERSION     37
+RC          -10
+MODULE      nixxi_r.cpp
+LINE        8716
+DETAIL      NiPConnect2
+SYSTEM CALL SiPeekPendConn
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     1
+
+
+**** ERROR file opened at 20120709 142432 China Standard, SAP-REL 640,0,132 RFC-VER 3 836337 MT-SL
+T:5632 Error in program 'javaw': ======> Connect to SAP gateway failed
+Connect_PM  GWHOST=192.168.108.94, GWSERV=sapgw10, ASHOST=192.168.108.94, SYSNR=10
+
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       partner not reached (host 192.168.108.94, service 3310)
+
+TIME        Mon Jul 09 14:24:32 2012
+RELEASE     640
+COMPONENT   NI (network interface)
+VERSION     37
+RC          -10
+MODULE      nixxi_r.cpp
+LINE        8716
+DETAIL      NiPConnect2
+SYSTEM CALL SiPeekPendConn
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     1
+
+
+**** ERROR file opened at 20120709 142449 China Standard, SAP-REL 640,0,132 RFC-VER 3 836337 MT-SL
+T:4272 Error in program 'javaw': ======> Connect to SAP gateway failed
+Connect_PM  GWHOST=192.168.108.94, GWSERV=sapgw10, ASHOST=192.168.108.94, SYSNR=10
+
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       partner not reached (host 192.168.108.94, service 3310)
+
+TIME        Mon Jul 09 14:24:49 2012
+RELEASE     640
+COMPONENT   NI (network interface)
+VERSION     37
+RC          -10
+MODULE      nixxi_r.cpp
+LINE        8716
+DETAIL      NiPConnect2
+SYSTEM CALL SiPeekPendConn
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     1
+
+
+**** ERROR file opened at 20120709 142614 China Standard, SAP-REL 640,0,132 RFC-VER 3 836337 MT-SL
+T:5496 Error in program 'javaw': ======> Connect to SAP gateway failed
+Connect_PM  GWHOST=192.168.108.94, GWSERV=sapgw10, ASHOST=192.168.108.94, SYSNR=10
+
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       partner not reached (host 192.168.108.94, service 3310)
+
+TIME        Mon Jul 09 14:26:14 2012
+RELEASE     640
+COMPONENT   NI (network interface)
+VERSION     37
+RC          -10
+MODULE      nixxi_r.cpp
+LINE        8716
+DETAIL      NiPConnect2
+SYSTEM CALL SiPeekPendConn
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     1
+
+
+**** ERROR file opened at 20120807 192830 China Standard Time, SAP-REL 720,0,39 RFC-VER 3  MT-SL
+T:808 Error in program 'javaw': ======> SAP_CMINIT3 : rc=20 > Connect to SAP gateway failed
+Connect_PM  GWHOST=192.168.101.19, GWSERV=sapgw10, SYSNR=10
+
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       partner '192.168.101.19:3310' not reached
+TIME        Tue Aug 07 19:28:30 2012
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3255
+DETAIL      NiPConnect2: 192.168.101.19:3310
+SYSTEM CALL connect
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     1
+
+
+**** ERROR file opened at 20120807 193035 China Standard Time, SAP-REL 720,0,39 RFC-VER 3  MT-SL
+T:4360 Error in program 'javaw': ======> SAP_CMINIT3 : rc=20 > Connect to SAP gateway failed
+Connect_PM  GWHOST=192.168.101.19, GWSERV=sapgw10, SYSNR=10
+
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       partner '192.168.101.19:3310' not reached
+TIME        Tue Aug 07 19:30:35 2012
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3255
+DETAIL      NiPConnect2: 192.168.101.19:3310
+SYSTEM CALL connect
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     1
+
+
+**** ERROR file opened at 20120807 193301 China Standard Time, SAP-REL 720,0,39 RFC-VER 3  MT-SL
+T:1744 Error in program 'javaw': ======> SAP_CMINIT3 : rc=20 > Connect to SAP gateway failed
+Connect_PM  GWHOST=192.168.101.19, GWSERV=sapgw10, SYSNR=10
+
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       partner '192.168.101.19:3310' not reached
+TIME        Tue Aug 07 19:33:01 2012
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3255
+DETAIL      NiPConnect2: 192.168.101.19:3310
+SYSTEM CALL connect
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     1
+
+
+**** ERROR file opened at 20120807 193521 China Standard Time, SAP-REL 720,0,39 RFC-VER 3  MT-SL
+T:5444 Error in program 'javaw': ======> SAP_CMINIT3 : rc=20 > Connect to SAP gateway failed
+Connect_PM  GWHOST=192.168.108.94, GWSERV=sapgw10, SYSNR=10
+
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       partner '192.168.108.94:3310' not reached
+TIME        Tue Aug 07 19:35:21 2012
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3255
+DETAIL      NiPConnect2: 192.168.108.94:3310
+SYSTEM CALL connect
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     1
+
+
+**** ERROR file opened at 20120807 193644 China Standard Time, SAP-REL 720,0,39 RFC-VER 3  MT-SL
+T:3248 Error in program 'javaw': ======> ## 782 ########
+T:3248 Error in program 'javaw': <* RfcReceive [1] : returns 3:RFC_SYS_EXCEPTION
+
+**** ERROR file opened at 20120807 193731 China Standard Time, SAP-REL 720,0,39 RFC-VER 3  MT-SL
+T:5372 Error in program 'javaw': ======> ## 782 ########
+T:5372 Error in program 'javaw': <* RfcReceive [1] : returns 3:RFC_SYS_EXCEPTION
+
+**** ERROR file opened at 20120807 193755 China Standard Time, SAP-REL 720,0,39 RFC-VER 3  MT-SL
+T:3228 Error in program 'javaw': ======> ## 782 ########
+T:3228 Error in program 'javaw': <* RfcReceive [1] : returns 3:RFC_SYS_EXCEPTION
+
+**** ERROR file opened at 20120807 193819 China Standard Time, SAP-REL 720,0,39 RFC-VER 3  MT-SL
+T:5376 Error in program 'javaw': ======> ## 782 ########
+T:5376 Error in program 'javaw': <* RfcReceive [1] : returns 3:RFC_SYS_EXCEPTION
+
+**** ERROR file opened at 20120807 193835 China Standard Time, SAP-REL 720,0,39 RFC-VER 3  MT-SL
+T:1976 Error in program 'javaw': ======> ## 782 ########
+T:1976 Error in program 'javaw': <* RfcReceive [1] : returns 3:RFC_SYS_EXCEPTION
+
+**** ERROR file opened at 20120820 154049 China Standard Time, SAP-REL 720,0,39 RFC-VER 3  MT-SL
+T:5328 Error in program 'javaw': ======> ##.#####,####
+T:5328 Error in program 'javaw': <* RfcReceive [1] : returns 3:RFC_SYS_EXCEPTION
+
+**** ERROR file opened at 20130115 115951 China Standard Time, SAP-REL 720,0,39 RFC-VER 3  MT-SL
+T:5340 Error in program 'javaw': ======> ##.#####,####
+T:5340 Error in program 'javaw': <* RfcReceive [1] : returns 3:RFC_SYS_EXCEPTION
+
+**** ERROR file opened at 20130115 120122 China Standard Time, SAP-REL 720,0,39 RFC-VER 3  MT-SL
+T:3396 Error in program 'javaw': ======> ##.#####,####
+T:3396 Error in program 'javaw': <* RfcReceive [1] : returns 3:RFC_SYS_EXCEPTION
+
+**** ERROR file opened at 20130116 212550 China Standard Time, SAP-REL 720,0,39 RFC-VER 3  MT-SL
+T:6020 Error in program 'javaw': ======> SAP_CMINIT3 : rc=20 > Connect to SAP gateway failed
+Connect_PM  GWHOST=192.168.108.94, GWSERV=sapgw11, SYSNR=11
+
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       partner '192.168.108.94:3311' not reached
+TIME        Wed Jan 16 21:25:50 2013
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3255
+DETAIL      NiPConnect2: 192.168.108.94:3311
+SYSTEM CALL connect
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     1
+
+
+**** ERROR file opened at 20130116 212919 China Standard Time, SAP-REL 720,0,39 RFC-VER 3  MT-SL
+T:4264 Error in program 'javaw': ======> SAP_CMINIT3 : rc=20 > Connect to SAP gateway failed
+Connect_PM  GWHOST=192.168.108.94, GWSERV=sapgw11, SYSNR=11
+
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       partner '192.168.108.94:3311' not reached
+TIME        Wed Jan 16 21:29:19 2013
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3255
+DETAIL      NiPConnect2: 192.168.108.94:3311
+SYSTEM CALL connect
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     1
+
+
+**** ERROR file opened at 20130402 144305 China Standard Time, SAP-REL 720,0,39 RFC-VER 3  MT-SL
+T:1688 Error in program 'javaw': ======> ## 782 ########
+T:1688 Error in program 'javaw': <* RfcReceive [1] : returns 3:RFC_SYS_EXCEPTION
+
+**** ERROR file opened at 20130402 144341 China Standard Time, SAP-REL 720,0,39 RFC-VER 3  MT-SL
+T:2444 Error in program 'javaw': ======> SAP_CMINIT3 : rc=20 > Connect to SAP gateway failed
+Connect_PM  GWHOST=192.168.101.19, GWSERV=sapgw10, SYSNR=10
+
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       partner '192.168.101.19:3310' not reached
+TIME        Tue Apr 02 14:43:41 2013
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3255
+DETAIL      NiPConnect2: 192.168.101.19:3310
+SYSTEM CALL connect
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     1
+
+
+**** ERROR file opened at 20130402 144436 China Standard Time, SAP-REL 720,0,39 RFC-VER 3  MT-SL
+T:2300 Error in program 'javaw': ======> SAP_CMINIT3 : rc=20 > Connect to SAP gateway failed
+Connect_PM  GWHOST=192.168.101.19, GWSERV=sapgw10, SYSNR=10
+
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       partner '192.168.101.19:3310' not reached
+TIME        Tue Apr 02 14:44:36 2013
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3255
+DETAIL      NiPConnect2: 192.168.101.19:3310
+SYSTEM CALL connect
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     1
+
+
+**** ERROR file opened at 20130402 144522 China Standard Time, SAP-REL 720,0,39 RFC-VER 3  MT-SL
+T:1904 Error in program 'javaw': ======> SAP_CMINIT3 : rc=20 > Connect to SAP gateway failed
+Connect_PM  GWHOST=192.168.101.19, GWSERV=sapgw10, SYSNR=10
+
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       partner '192.168.101.19:3310' not reached
+TIME        Tue Apr 02 14:45:22 2013
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3255
+DETAIL      NiPConnect2: 192.168.101.19:3310
+SYSTEM CALL connect
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     1
+
+
+**** ERROR file opened at 20130402 144710 China Standard Time, SAP-REL 720,0,39 RFC-VER 3  MT-SL
+T:4968 Error in program 'javaw': ======> SAP_CMINIT3 : rc=20 > Connect to SAP gateway failed
+Connect_PM  GWHOST=192.168.101.19, GWSERV=sapgw10, SYSNR=10
+
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       partner '192.168.101.19:3310' not reached
+TIME        Tue Apr 02 14:47:10 2013
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3255
+DETAIL      NiPConnect2: 192.168.101.19:3310
+SYSTEM CALL connect
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     1
+
+
+**** ERROR file opened at 20130402 144743 China Standard Time, SAP-REL 720,0,39 RFC-VER 3  MT-SL
+T:4212 Error in program 'javaw': ======> SAP_CMINIT3 : rc=20 > Connect to SAP gateway failed
+Connect_PM  GWHOST=192.168.101.19, GWSERV=sapgw10, SYSNR=10
+
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       partner '192.168.101.19:3310' not reached
+TIME        Tue Apr 02 14:47:43 2013
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3255
+DETAIL      NiPConnect2: 192.168.101.19:3310
+SYSTEM CALL connect
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     1
+
+
+**** ERROR file opened at 20130402 145149 China Standard Time, SAP-REL 720,0,39 RFC-VER 3  MT-SL
+T:5420 Error in program 'javaw': ======> SAP_CMINIT3 : rc=20 > Connect to SAP gateway failed
+Connect_PM  GWHOST=192.168.101.19, GWSERV=sapgw10, SYSNR=10
+
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       partner '192.168.101.19:3310' not reached
+TIME        Tue Apr 02 14:51:49 2013
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3255
+DETAIL      NiPConnect2: 192.168.101.19:3310
+SYSTEM CALL connect
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     1
+
+
+**** ERROR file opened at 20130402 145249 China Standard Time, SAP-REL 720,0,39 RFC-VER 3  MT-SL
+T:4876 Error in program 'javaw': ======> SAP_CMINIT3 : rc=20 > Connect to SAP gateway failed
+Connect_PM  GWHOST=192.168.101.19, GWSERV=sapgw10, SYSNR=10
+
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       partner '192.168.101.19:3310' not reached
+TIME        Tue Apr 02 14:52:49 2013
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3255
+DETAIL      NiPConnect2: 192.168.101.19:3310
+SYSTEM CALL connect
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     1
+
+
+**** ERROR file opened at 20130402 145410 China Standard Time, SAP-REL 720,0,39 RFC-VER 3  MT-SL
+T:3856 Error in program 'javaw': ======> SAP_CMINIT3 : rc=20 > Connect to SAP gateway failed
+Connect_PM  GWHOST=192.168.101.19, GWSERV=sapgw10, SYSNR=10
+
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       partner '192.168.101.19:3310' not reached
+TIME        Tue Apr 02 14:54:10 2013
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3255
+DETAIL      NiPConnect2: 192.168.101.19:3310
+SYSTEM CALL connect
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     1
+
+
+**** ERROR file opened at 20130402 145504 China Standard Time, SAP-REL 720,0,39 RFC-VER 3  MT-SL
+T:2268 Error in program 'javaw': ======> SAP_CMINIT3 : rc=20 > Connect to SAP gateway failed
+Connect_PM  GWHOST=192.168.101.19, GWSERV=sapgw10, SYSNR=10
+
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       partner '192.168.101.19:3310' not reached
+TIME        Tue Apr 02 14:55:04 2013
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3255
+DETAIL      NiPConnect2: 192.168.101.19:3310
+SYSTEM CALL connect
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     1
+
+
+**** ERROR file opened at 20130710 111347 中国标准时间, SAP-REL 640,0,132 RFC-VER 3 836337 MT-SL
+T:5744 Error in program 'javaw': ======> ##.#####,####
+T:5744 Error in program 'javaw': <* RfcReceive [1] : returns 3:RFC_SYS_EXCEPTION
+
+**** ERROR file opened at 20130710 111424 中国标准时间, SAP-REL 640,0,132 RFC-VER 3 836337 MT-SL
+T:4896 Error in program 'javaw': ======> ##.#####,####
+T:4896 Error in program 'javaw': <* RfcReceive [1] : returns 3:RFC_SYS_EXCEPTION
+
+**** ERROR file opened at 20130710 111450 中国标准时间, SAP-REL 640,0,132 RFC-VER 3 836337 MT-SL
+T:5944 Error in program 'javaw': ======> ##.#####,####
+T:5944 Error in program 'javaw': <* RfcReceive [1] : returns 3:RFC_SYS_EXCEPTION
+
+**** ERROR file opened at 20130710 111811 中国标准时间, SAP-REL 640,0,132 RFC-VER 3 836337 MT-SL
+T:6112 Error in program 'javaw': ======> ##.#####,####
+T:6112 Error in program 'javaw': <* RfcReceive [1] : returns 3:RFC_SYS_EXCEPTION
+
+**** ERROR file opened at 20130711 123415 中国标准时间, SAP-REL 640,0,132 RFC-VER 3 836337 MT-SL
+T:5248 Error in program 'javaw': ======> Connect to SAP gateway failed
+Connect_PM  GWHOST=192.168.108.94, GWSERV=sapgw00, ASHOST=192.168.108.94, SYSNR=00
+
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       partner not reached (host 192.168.108.94, service 3300)
+
+TIME        Thu Jul 11 12:34:15 2013
+RELEASE     640
+COMPONENT   NI (network interface)
+VERSION     37
+RC          -10
+MODULE      nixxi_r.cpp
+LINE        8716
+DETAIL      NiPConnect2
+SYSTEM CALL SiPeekPendConn
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     1
+
+
+**** ERROR file opened at 20130711 123443 中国标准时间, SAP-REL 640,0,132 RFC-VER 3 836337 MT-SL
+T:8492 Error in program 'javaw': ======> Connect to SAP gateway failed
+Connect_PM  GWHOST=192.168.108.94, GWSERV=sapgw00, ASHOST=192.168.108.94, SYSNR=00
+
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       partner not reached (host 192.168.108.94, service 3300)
+
+TIME        Thu Jul 11 12:34:43 2013
+RELEASE     640
+COMPONENT   NI (network interface)
+VERSION     37
+RC          -10
+MODULE      nixxi_r.cpp
+LINE        8716
+DETAIL      NiPConnect2
+SYSTEM CALL SiPeekPendConn
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     1
+
+
+**** ERROR file opened at 20130711 123530 中国标准时间, SAP-REL 640,0,132 RFC-VER 3 836337 MT-SL
+T:8780 Error in program 'javaw': ======> Connect to SAP gateway failed
+Connect_PM  GWHOST=192.168.108.94, GWSERV=sapgw10, ASHOST=192.168.108.94, SYSNR=10
+
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       partner not reached (host 192.168.108.94, service 3310)
+
+TIME        Thu Jul 11 12:35:30 2013
+RELEASE     640
+COMPONENT   NI (network interface)
+VERSION     37
+RC          -10
+MODULE      nixxi_r.cpp
+LINE        8716
+DETAIL      NiPConnect2
+SYSTEM CALL SiPeekPendConn
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     1
+
+
+**** ERROR file opened at 20130711 123631 中国标准时间, SAP-REL 640,0,132 RFC-VER 3 836337 MT-SL
+T:8200 Error in program 'javaw': ======> Connect to SAP gateway failed
+Connect_PM  GWHOST=192.168.108.94, GWSERV=sapgw10, ASHOST=192.168.108.94, SYSNR=10
+
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       partner not reached (host 192.168.108.94, service 3310)
+
+TIME        Thu Jul 11 12:36:31 2013
+RELEASE     640
+COMPONENT   NI (network interface)
+VERSION     37
+RC          -10
+MODULE      nixxi_r.cpp
+LINE        8716
+DETAIL      NiPConnect2
+SYSTEM CALL SiPeekPendConn
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     1
+
+
+**** ERROR file opened at 20131118 200147 中国标准时间, SAP-REL 640,0,132 RFC-VER 3 836337 MT-SL
+T:3664 Error in program 'javaw': ======> Connect to SAP gateway failed
+Connect_PM  GWHOST=192.168.110.96, GWSERV=sapgw11, ASHOST=192.168.110.96, SYSNR=11
+
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       partner not reached (host 192.168.110.96, service 3311)
+
+TIME        Mon Nov 18 20:01:47 2013
+RELEASE     640
+COMPONENT   NI (network interface)
+VERSION     37
+RC          -10
+MODULE      nixxi_r.cpp
+LINE        8716
+DETAIL      NiPConnect2
+SYSTEM CALL SiPeekPendConn
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     1
+
+
+**** ERROR file opened at 20131118 200330 中国标准时间, SAP-REL 640,0,132 RFC-VER 3 836337 MT-SL
+T:5652 Error in program 'javaw': ======> Connect to SAP gateway failed
+Connect_PM  GWHOST=192.168.110.96, GWSERV=sapgw11, ASHOST=192.168.110.96, SYSNR=11
+
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       partner not reached (host 192.168.110.96, service 3311)
+
+TIME        Mon Nov 18 20:03:30 2013
+RELEASE     640
+COMPONENT   NI (network interface)
+VERSION     37
+RC          -10
+MODULE      nixxi_r.cpp
+LINE        8716
+DETAIL      NiPConnect2
+SYSTEM CALL SiPeekPendConn
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     1
+
+
+**** ERROR file opened at 20131118 200416 中国标准时间, SAP-REL 640,0,132 RFC-VER 3 836337 MT-SL
+T:1936 Error in program 'javaw': ======> Connect to SAP gateway failed
+Connect_PM  GWHOST=192.168.110.96, GWSERV=sapgw11, ASHOST=192.168.110.96, SYSNR=11
+
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       partner not reached (host 192.168.110.96, service 3311)
+
+TIME        Mon Nov 18 20:04:16 2013
+RELEASE     640
+COMPONENT   NI (network interface)
+VERSION     37
+RC          -10
+MODULE      nixxi_r.cpp
+LINE        8716
+DETAIL      NiPConnect2
+SYSTEM CALL SiPeekPendConn
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     1
+
+
+**** ERROR file opened at 20131118 200551 中国标准时间, SAP-REL 640,0,132 RFC-VER 3 836337 MT-SL
+T:6192 Error in program 'javaw': ======> Connect to SAP gateway failed
+Connect_PM  GWHOST=/H/218.103.18.225/H/192.168.110.96, GWSERV=sapgw11, ASHOST=/H/218.103.18.225/H/192.168.110.96, SYSNR=11
+
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       connection to partner broken
+
+TIME        Mon Nov 18 20:05:51 2013
+RELEASE     640
+COMPONENT   NI (network interface)
+VERSION     37
+RC          -6
+MODULE      ninti.c
+LINE        789
+DETAIL      NiPRead (218.103.18.225/3299, hdl 1)
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     1
+
+
+**** ERROR file opened at 20131118 200647 中国标准时间, SAP-REL 640,0,132 RFC-VER 3 836337 MT-SL
+T:5672 Error in program 'javaw': ======> Connect to SAP gateway failed
+Connect_PM  GWHOST=192.168.110.96, GWSERV=sapgw11, ASHOST=192.168.110.96, SYSNR=11
+
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       partner not reached (host 192.168.110.96, service 3311)
+
+TIME        Mon Nov 18 20:06:47 2013
+RELEASE     640
+COMPONENT   NI (network interface)
+VERSION     37
+RC          -10
+MODULE      nixxi_r.cpp
+LINE        8716
+DETAIL      NiPConnect2
+SYSTEM CALL SiPeekPendConn
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     1
+
+
+**** ERROR file opened at 20131118 200738 中国标准时间, SAP-REL 640,0,132 RFC-VER 3 836337 MT-SL
+T:2416 Error in program 'javaw': ======> Connect to SAP gateway failed
+Connect_PM  GWHOST=192.168.110.96, GWSERV=sapgw11, ASHOST=192.168.110.96, SYSNR=11
+
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       partner not reached (host 192.168.110.96, service 3311)
+
+TIME        Mon Nov 18 20:07:38 2013
+RELEASE     640
+COMPONENT   NI (network interface)
+VERSION     37
+RC          -10
+MODULE      nixxi_r.cpp
+LINE        8716
+DETAIL      NiPConnect2
+SYSTEM CALL SiPeekPendConn
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     1
+
